@@ -7,4 +7,4 @@ new Vue({
     components :{ 'runoob':App}
 });
 console.log('hello vue o(*￣︶￣*)o %%');
-console.logs('hello vue o(*￣︶￣*)o');
+console.logs('错误测试');
