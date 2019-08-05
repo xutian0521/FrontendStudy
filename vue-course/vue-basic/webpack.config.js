@@ -1,10 +1,11 @@
 const path =require('path');
 var webpack = require('webpack');
-const HtmlWebpackPlugin= require('html-webpack-plugin');
-const CleanWebpackPlugin =require('clean-webpack-plugin');
+// const HtmlWebpackPlugin= require('html-webpack-plugin');
+// const CleanWebpackPlugin =require('clean-webpack-plugin');
+const VueLoaderPlugin =require('vue-loader/lib/plugin')
 
 module.exports= {
-    entry:'./src/index.js',
+    entry:'./src/main.js',
     output:{
         filename:'bundle.js',
         path: path.resolve(__dirname, 'dist')
@@ -17,22 +18,19 @@ module.exports= {
           }
     },
     plugins:[
-        //new CleanWebpackPlugin(['dist']),
+      new VueLoaderPlugin(),
+        // new CleanWebpackPlugin(['dist']),
         // new HtmlWebpackPlugin({
         //     title: 'Output Management'
         //   })
+
     ],
     module: {
         rules: [
           {
             test: /\.vue$/,
-            loader: 'vue-loader'
-          }
-        ]
-      },
-     
-    module: {
-        rules: [
+            loader: ['vue-loader']
+          },
           {
             test: /\.css$/,
             use: ['style-loader', 'css-loader'],
