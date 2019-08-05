@@ -6,14 +6,14 @@ npm init -y
 ```
 2. 安装 webpack 和webpack-cli
 ``` bash
-npm install --save-dev webpack
-npm install --save-dev webpack-cli
+npm install --save-dev webpack@4.39.1
+npm install --save-dev webpack-cli@3.3.6
 ```
 3. 安装 vue
 ``` bash
-npm install --save-dev vue
+npm install --save-dev vue@2.6.10
 ```
-4. 配置webpack.config.js 和 
+4. 配置webpack.config.js 
 ``` js
 const path =require('path');
 var webpack = require('webpack');

@@ -14,6 +14,13 @@ module.exports ={
         filename:'js/[name].js',
         publicPath: '/'
     },
+    devServer:{
+        contentBase:'./dist',
+        overlay: {
+            warnings: true,
+            errors: true
+          }
+    },
     module:{
         rules:[
             {
