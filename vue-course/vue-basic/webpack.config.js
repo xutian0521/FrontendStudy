@@ -10,13 +10,6 @@ module.exports= {
         filename:'bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
-    devServer:{
-        contentBase:'./dist',
-        overlay: {
-            warnings: true,
-            errors: true
-          }
-    },
     plugins:[
       new VueLoaderPlugin(),
         // new CleanWebpackPlugin(['dist']),
