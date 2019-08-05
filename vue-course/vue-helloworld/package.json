@@ -1,0 +1,18 @@
+{
+  "name": "vue-helloworld",
+  "version": "1.0.0",
+  "description": "> 如果npm等命令 不能用，现在去nodejs 官网下载nodejs的开发环境 1. 初始化 npm的package.json ``` bash npm init -y ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vue": "^2.6.10",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
