@@ -22,3 +22,10 @@
     babel-loader: 如今 ES6 语法在开发中已经非常普及，甚至也有许多开发人员用上了 ES7 或 ES8 语法。然而，浏览器对这些高级语法的支持性并不是非常好。因此为了让我们的新语法能在浏览器中都能顺利运行，Babel 应运而生。一些高级语法还另需要配置 .babelrc 文件
 
 5. file-loader,url-loader 一般一起使用
+
+    file-loader:将文件发送到URL并将文件发送到输出目录
+    url-loader:用于将文件转换为base64 URI的Webpack加载程序。
+
+6. clean-webpack-plugin, html-webpack-plugin 一般一起使用
+    clean-webpack-plugin:是一个流行的清理插件，安装和配置它。清理 /dist 文件夹
+    html-webpack-plugin: 该插件将为你生成一个 HTML5 文件， 其中包括使用 script 标签的 body 中的所有 webpack 包。 

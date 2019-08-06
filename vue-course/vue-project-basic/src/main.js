@@ -9,7 +9,7 @@ new Vue({
   components:{App}
 })
 
-console.log('hello vue!');
+console.log('hello vue whit project basic!');
 
 // 字符串嵌入变量 es6 语法测试
 var name = 'React'

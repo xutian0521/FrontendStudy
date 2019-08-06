@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <img src="./images/logo.png" alt="logo" />
-        <span>{{msg}}</span>
+        <h2><span>{{msg}}</span></h2>
         <p class="test">test text</p>
     </div>
 </template>
@@ -11,7 +11,7 @@ import Vue from 'vue'
         name:'app',
         data(){
             return {
-                msg:"hello vue !!"
+                msg:"hello vue whit project basic!!"
             }
         },
     }
