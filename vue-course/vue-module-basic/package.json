@@ -1,5 +1,5 @@
 {
-  "name": "vue-basic",
+  "name": "vue-module-basic",
   "version": "1.0.0",
   "description": ">从零开始搭建一个简单的基于webpack的vue开发环境 :https://segmentfault.com/a/1190000012789253?utm_source=tag-newest",
   "main": "index.js",
@@ -16,6 +16,7 @@
     "style-loader": "^0.23.1",
     "vue": "^2.6.7",
     "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3"
   }

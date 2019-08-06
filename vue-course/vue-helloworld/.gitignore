@@ -15,7 +15,7 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
-
+*-lock.json
 
 node_modules
 dist
