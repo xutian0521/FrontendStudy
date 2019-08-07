@@ -1,4 +1,4 @@
-## Vue webpack开发环境 搭建基础3 其他
+## Vue webpack开发环境 搭建基础2 其他
 
 #### 其他配置
 1. source-map

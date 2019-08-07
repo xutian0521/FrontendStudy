@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <img src="../images/logo.png"  alt="logo"/>
-        <span>{{msg}}</span>
+        <h1><span>{{msg}}</span></h1>
         <p class="test"> test text</p>
     </div>
 </template>
@@ -28,7 +28,7 @@ import Vue from 'vue'
 </script>
 <style>
     .test{
-        color: darkgreen;
+        color: rgb(2, 107, 126);
     }
 </style>
 

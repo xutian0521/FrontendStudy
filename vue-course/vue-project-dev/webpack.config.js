@@ -12,14 +12,14 @@ module.exports ={
     output:{
         path:path.resolve(__dirname, './dist'),
         filename:'js/[name].js',
-        publicPath: '/'
+        // publicPath: './' //这个配置可以不用配置
     },
     devServer:{
-        contentBase:'./dist',
-        overlay: {
-            warnings: true,
-            errors: true
-          }
+        contentBase: path.join(__dirname, 'dist'),
+        port: 3000,
+        overlay: true,
+        hot: true,
+        open : true
     },
     module:{
         rules:[

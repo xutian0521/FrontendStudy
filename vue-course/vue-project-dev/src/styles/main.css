@@ -1,5 +1,7 @@
 @import './global.css';
 
 #app {
-    color: cadetblue;
+    color: rgb(0, 81, 128);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    /* font-family: 'consolas' */
 }
