@@ -7,9 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "dev": "webpack-dev-server ",
-    // "dev": "webpack-dev-server --hot --open --port 3000",
+    "dev-cli": "webpack-dev-server --hot --open --port 3000",
+    "dev-server": "node build/dev-server.js",
+
     "server": "node build/server.js",
-    "dev-server": "node build/dev-server.js"
+    "express": "node build/express.js"
   },
   "keywords": [],
   "author": "",

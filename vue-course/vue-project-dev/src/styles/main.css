@@ -1,7 +1,7 @@
 @import './global.css';
 
 #app {
-    color: rgb(0, 81, 128);
+    color: green;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     /* font-family: 'consolas' */
 }
