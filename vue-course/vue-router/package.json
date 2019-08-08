@@ -1,7 +1,7 @@
 {
-  "name": "vue-module-basic",
+  "name": "vue-router",
   "version": "1.0.0",
-  "description": ">从零开始搭建一个简单的基于webpack的vue开发环境 :https://segmentfault.com/a/1190000012789253?utm_source=tag-newest",
+  "description": "vue-router 插件使用方法和教程",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
