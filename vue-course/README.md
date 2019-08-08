@@ -1,6 +1,6 @@
 # Vue Course
 ## Vue 阶梯学习案例模板
-1. [vue-helloworld[(./vue-helloworld) 最基础的helloworld demo
+1. [vue-helloworld](./vue-helloworld) 最基础的helloworld demo
 2. [vue-module](./vue-module) vue模块化(.vue)基础案例demo
 3. [vue-project-basic](./vue-project-basic) vue项目构建基础demo
 4. [vue-project-d_plugins](./vue-project-d_plugins) vue其他插件使用案例
