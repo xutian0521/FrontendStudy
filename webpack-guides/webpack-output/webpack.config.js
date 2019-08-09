@@ -1,15 +1,18 @@
 const path = require('path');
-const HTMLWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    index: './src/index.js'
+    app: './src/index.js',
+    print: './src/print.js'
   },
   plugins: [
-    new HTMLWebpackPlugin({
-      title: 'Code Splitting'
-    })
-  ],
+      new CleanWebpackPlugin(),
+      new HtmlWebpackPlugin({
+        title: 'Output Management'
+      })
+    ],
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
