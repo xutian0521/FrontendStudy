@@ -9,9 +9,14 @@ module.exports = {
   },
   plugins: [
       new CleanWebpackPlugin(),
+      // new HtmlWebpackPlugin({
+      //   title: 'Output Management'
+      // })
       new HtmlWebpackPlugin({
-        title: 'Output Management'
-      })
+        filename: 'dist-index.html',
+        template: 'template-index.html',
+        inject: true
+      }),
     ],
   output: {
     filename: '[name].bundle.js',
