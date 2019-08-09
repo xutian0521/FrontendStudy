@@ -37,7 +37,7 @@ npm run build
 ```
 ### 6.  找到index.html 打开
 
-## 3中命令方式的区别
+## 三种命令方式的区别
 1. npx webpack 默认配置方式, 可以不需要webpack.config.js配置文件,默认打包为 main.js和dist目录下(如果配置webpack.config.js 该命令默认执行配置文件下的配置替换掉默认配置)
 2. npx webpack --config webpack.config.js 指定配置文件方式运行
 3. npm run build 使用npm脚本方式, 实际还是执行webpack的cli
