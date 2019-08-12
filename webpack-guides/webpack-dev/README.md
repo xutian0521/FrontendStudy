@@ -42,7 +42,7 @@ npm install --save-dev webpack-dev-server@3.2.1
       "dev-server": "node build/dev-server.js --config webpack.config-dev.js",
     }
 }
-``
+```
 ``` javascript
 module.exports = {
   devServer: {
