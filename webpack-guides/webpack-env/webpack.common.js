@@ -9,7 +9,7 @@
    plugins: [
      new CleanWebpackPlugin(['dist']),
      new HtmlWebpackPlugin({
-       title: 'Production'
+       title: 'title'
      })
    ],
    output: {

@@ -5,5 +5,9 @@
    devtool: 'inline-source-map',
    devServer: {
      contentBase: './dist'
-   }
+   },
+   mode: 'development',
+    optimization: {
+      usedExports: true
+    }
  });
