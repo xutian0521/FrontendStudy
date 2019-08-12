@@ -1,4 +1,4 @@
 export default function printMe() {
-    console.log(' o(*￣︶￣*)o');
+    console.warn(' o(*￣︶￣*)o');
     //cosnole.error('I get called from print.js!');
   }
