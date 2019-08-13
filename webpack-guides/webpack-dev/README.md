@@ -112,3 +112,11 @@ app.listen(3000, function () {
 });
 ```
 **使用express web服务器, 并使用自定义中间件 webpack-dev-middleware实现dev开发, 并手动启动监听**
+---
+# webpack-hot
+
+>参考：https://webpack.docschina.org/guides/hot-module-replacement/
+
+## 使用模块热替换 (hot module replacement 或 HMR)
+
+>模块热替换(hot module replacement 或 HMR)是 webpack 提供的最有用的功能之一。它允许在运行时更新所有类型的模块，而无需完全刷新。

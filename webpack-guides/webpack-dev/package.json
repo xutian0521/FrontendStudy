@@ -8,7 +8,7 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "dev": "webpack-dev-server",
-    "dev-cli": "webpack-dev-server --open",
+    "dev-cli": "webpack-dev-server --open --hot",
     "dev-server": "node build/dev-server.js --config webpack.config-dev.js",
     "server": "node build/server.js webpack.config-dev.js"
 

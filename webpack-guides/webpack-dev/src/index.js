@@ -23,7 +23,6 @@ document.body.appendChild(div);
 
  if (module.hot) {
    module.hot.accept('./print.js', function() {
-     console.log('Accepting the updated printMe module!');
-     printMe();
+     console.log('模块热替换!');
    })
  }
