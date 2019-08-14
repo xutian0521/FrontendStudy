@@ -120,3 +120,10 @@ app.listen(3000, function () {
 ## 使用模块热替换 (hot module replacement 或 HMR)
 
 >模块热替换(hot module replacement 或 HMR)是 webpack 提供的最有用的功能之一。它允许在运行时更新所有类型的模块，而无需完全刷新。
+
+## webpack-dev-server 中使用模块热替换
+1. cli方式使用 `--hot 3000`
+2. `webpack.config` 配置和`dev-server.js` 导入模式 配置`port: 3000`
+3. `webpack-dev-middleware` 方式需要 `webpack-hot-middleware`在自定义 dev server 中启用 HMR
+
+ **:rotating_light:注意当前案例html元素是在页面初始化的时候append上去的，所以修改main.js内容需要重新刷新页面MHR热替换功能会失效,像prin.js的打印方法内容修改了,页面并没有刷新是可以使用HMR热替换的,但是你点击`Click me and check the console!`按钮的时候你修改的内容还是没有变,只有手动刷新页面才能看到,修改改过print.js文件内容保存之后,手动查看一下确实是修改过的被HMR热替换了,为什么单击事件还是显示以前的内容,原因是`printMe`方法是在页面初始化的时候注册给按钮的单击事件,你修改过`printMe`方法之后并没有初始化页面重新注册给按钮的单击事件,所以单击事件还是显示上一次的结果**

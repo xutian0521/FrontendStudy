@@ -24,5 +24,6 @@ document.body.appendChild(div);
  if (module.hot) {
    module.hot.accept('./print.js', function() {
      console.log('模块热替换!');
+     printMe();
    })
  }

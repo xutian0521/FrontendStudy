@@ -11,7 +11,8 @@ module.exports = {
   devServer: {
     contentBase: './dist',
     open: true,
-    hot :true
+    hot :true,
+    port :3000
   },
   plugins: [
     new CleanWebpackPlugin(['dist']),
