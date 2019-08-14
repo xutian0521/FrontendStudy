@@ -35,8 +35,20 @@ module.exports = {
 ```
 html-webpack-plugin 默认在的dist 文件夹生成index.html并引入入口js 文件
 clean-webpack-plugin 默认会清理dist 文件夹下的文件, 这里也没有配置要清理的文件夹
+## 3. 使用模板配置 html-webpack-plugin
 
-## 编写 案例js代码 
+``` javascript
+  plugins: [
+      new HtmlWebpackPlugin({ //指定模板配置
+        filename: 'dist-index.html',
+        template: 'template-index.html',
+        inject: true
+      }),
+    ]
+};
+```
+这里会根据根目录下的template-index.html 文件在dist 文件夹下生成dist-index.html,并引用入口里的js文件
+## 4. 编写 案例js代码 
 ``` javascript
 //index.js
 import _ from 'lodash';

@@ -9,10 +9,10 @@ module.exports = {
   },
   plugins: [
       new CleanWebpackPlugin(),
-      // new HtmlWebpackPlugin({
+      // new HtmlWebpackPlugin({ //默认配置
       //   title: 'Output Management'
       // })
-      new HtmlWebpackPlugin({
+      new HtmlWebpackPlugin({ //指定模板配置
         filename: 'dist-index.html',
         template: 'template-index.html',
         inject: true
